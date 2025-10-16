@@ -12,7 +12,7 @@ b. find sst anomalies derived as deviations from the 1980 to 2020 (41 year avera
 
 c. weight the anomalies by cosine(latitude) for the area weighting
 
-d. normalize the sst anomaly time series by the standard deviation
+d. average the anomalies in both latitude adn longitude to create a timeseries
 
 e. apply a five month running mean to the time series. We would use a three month running mean for the ONI
 
@@ -20,6 +20,8 @@ e. apply a five month running mean to the time series. We would use a three mont
 [NOAA guidelines for constructing the Nino3.4 Index](https://www.ncei.noaa.gov/access/monitoring/enso/sst)
 
 [Climate Data Guide](https://climatedataguide.ucar.edu/climate-data/nino-sst-indices-nino-12-3-34-4-oni-and-tni)
+
+[Example ENSO construction in Python](https://comptools.climatematch.io/tutorials/W1D3_RemoteSensing/student/W1D3_Tutorial6.html)
 
 #### 2. Constructing the QBO index...
 
