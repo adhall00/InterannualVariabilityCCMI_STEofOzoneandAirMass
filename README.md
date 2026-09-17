@@ -12,7 +12,7 @@ b. find sst anomalies derived as deviations from the 1980 to 2020 (41 year avera
 
 c. weight the anomalies by cosine(latitude) for the area weighting
 
-d. average the anomalies in both latitude adn longitude to create a timeseries
+d. average the anomalies in both latitude and longitude to create a timeseries
 
 e. apply a five month running mean to the time series. We would use a three month running mean for the ONI
 
